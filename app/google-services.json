@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "460103598841",
+    "firebase_url": "https://robmansions-e6456.firebaseio.com",
+    "project_id": "robmansions-e6456",
+    "storage_bucket": "robmansions-e6456.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460103598841:android:aaafeb8656251012b95828",
+        "android_client_info": {
+          "package_name": "com.example.robmansions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460103598841-jubkosvf1ggiesavdudbatm2463tv1ia.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.robmansions",
+            "certificate_hash": "4d849f72d630b162c3f0ed754ad19e8f1e223855"
+          }
+        },
+        {
+          "client_id": "460103598841-rgmi4h3gk4kpmbk29cqc87qq7p29h9gi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3TJ3sarO3lUO6rgIfkbix-8zU86CMB7w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460103598841-rgmi4h3gk4kpmbk29cqc87qq7p29h9gi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

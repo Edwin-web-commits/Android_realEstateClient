@@ -1,0 +1,41 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="176dp"
+    android:gravity="bottom"
+    android:paddingEnd="16dp"
+    android:background="#37474F"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <ImageView
+        android:id="@+id/profileImage"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:onClick="profileImageClicked"
+        android:background="@drawable/profile"
+        />
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ROBmansions"
+        android:textStyle="bold"
+        android:paddingLeft="16dp"
+        android:textColor="#ffff"
+        style="@style/TextAppearance.AppCompat.Body1"
+        />
+    <TextView
+        android:id="@+id/userEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="robmansions@gmail.com"
+        android:paddingLeft="16dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        />
+
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:background="#37474F"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="196dp"
+        android:inputType="textPersonName"
+        android:text="Contact Us"
+        android:textColor="#ffff"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="99dp"
+        android:text="Name:"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="140dp"
+        android:text="Email:"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="186dp"
+        android:text="Phone:"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="226dp"
+        android:text="Properties interested in:"
+        android:textColor="#ffff"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/nameText"
+        android:layout_width="315dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginEnd="23dp"
+        android:textColor="#ffff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/emailTxt"
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="129dp"
+        android:layout_marginEnd="22dp"
+        android:textColor="#ffff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/phoneTxt"
+        android:layout_width="313dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="173dp"
+        android:layout_marginEnd="24dp"
+        android:textColor="#ffff"
+        android:textColorHint="#fff" />
+
+    <EditText
+        android:id="@+id/propertyTxt"
+        android:layout_width="383dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="256dp"
+        android:layout_marginEnd="23dp"
+        android:textColor="#ffff"
+        android:textColorHint="#fff" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@+id/propertyTxt"
+        android:layout_height="match_parent"
+
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Write yout enquiry below"
+            android:layout_marginStart="5dp"
+            android:textColor="#fff"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/enquiryTxt"
+            android:layout_width="383dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="8dp"
+            android:layout_marginEnd="23dp"
+
+            android:textColor="#ffff"
+            android:textColorHint="#fff" />
+
+
+        <Button
+            android:id="@+id/submitText"
+            android:layout_width="131dp"
+            android:layout_height="62dp"
+            android:layout_below="@+id/enquiryTxt"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+
+            android:layout_marginStart="117dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="114dp"
+            android:layout_marginBottom="115dp"
+            android:background="#000000"
+            android:text="SUBMIT INFO"
+            android:textColor="#ffff" />
+
+
+    </LinearLayout>
+
+
+
+
+</RelativeLayout>
